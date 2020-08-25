@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <!-- Remote -->
+  <remote name="github2" fetch="https://github.com/" />
+
+  <!-- Device -->
+  <project name="lineage-mz6xx/android_device_moto_everest" path="device/motorola/everest" remote="github2" revision="cm-11.0" />
+  <project name="lineage-mz6xx/android_device_moto_wingray" path="device/motorola/wingray" remote="github2" revision="cm-11.0" />
+
+  <!-- Kernel -->
+  <project name="lineage-mz6xx/android_kernel_moto_xoom" path="kernel/motorola/xoom" remote="github2" revision="aosp-4.4" />
+
+  <!-- Vendor -->
+  <project name="lineage-mz6xx/android_vendor_moto_everest" path="vendor/motorola/everest" remote="github2" revision="android-4.4" />
+  <project name="lineage-mz6xx/android_vendor_moto_wingray" path="vendor/motorola/wingray" remote="github2" revision="android-4.3" />
+  <project name="lineage-mz6xx/android_vendor_nvidia_wingray" path="vendor/nvidia/wingray" remote="github2" revision="android-4.3" />
+  <project name="lineage-mz6xx/android_vendor_broadcom_wingray" path="vendor/broadcom/wingray" remote="github2" revision="android-4.3" />
+</manifest>
